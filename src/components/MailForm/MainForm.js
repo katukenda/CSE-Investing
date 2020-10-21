@@ -44,7 +44,7 @@ render() {
     return (
       
         <div >
-          <h1 className="p-heading1">Comment Your Idea ඔබේ අදහස් දක්වන්න </h1>
+         
           <Form onSubmit={this.handleSubmit.bind(this)}>
             <FormGroup controlId="formBasicEmail">
               <Label className="text-muted">Email address</Label>

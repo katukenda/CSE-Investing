@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link, Redirect} from 'react-router-dom';
+import i from 'react-icofont';
 import './Open.scss';
 import { Container, UncontrolledCollapse, Col, Row, Button, Card, CardTitle, CardBody, CardFooter, CardHeader } from 'reactstrap';
 import Unde from '../../../components/UnderDevelop/Underdevolop';
@@ -17,7 +18,7 @@ class App extends Component {
 
 
 <ol class="accordion" id="accordionExample">
-    <li className={"sub-title"}>ඔබ දැනගත යුතු කරුනු <sapn className={"pointer"}  data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">👈</sapn></li>
+    <li className={"sub-title"}>ඔබ දැනගත යුතු කරුනු <sapn className={"pointer"}  data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1"><i class="icofont-hand-drag1"></i></sapn></li>
     <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionExample">
         <ul className={"list"}>
             <li > ඔබට නීත්‍යානුකූලව සෑදිය හැක්කේ එක් CDS ගිනුමක් පමනි.</li>
@@ -29,7 +30,7 @@ class App extends Component {
 
 
 
-    <li className={"sub-title "}  >පැරණි ආකාරයට <span className={"pointer"} data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">👈</span></li>
+    <li className={"sub-title "}  >පැරණි ආකාරයට <span className={"pointer"} data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2"><i class="icofont-hand-drag1"></i></span></li>
     <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
 
         <ul className={"list"}>
@@ -40,7 +41,7 @@ class App extends Component {
         </ul>
     </div>
 
-    <li className={"sub-title "} >නව ආකාරයට <span className={"pointer"} data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">👈</span></li>
+    <li className={"sub-title "} >නව ආකාරයට <span className={"pointer"} data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3"><i class="icofont-hand-drag1"></i></span></li>
     <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
         <ul className={"list"}>
             <li>මේ සදහා ඔබට email ලිපිනයක්, දුරකතන අංකයක් තිබිය යුතුය</li>
@@ -53,7 +54,7 @@ class App extends Component {
 
         </ul>
     </div>
-    <li className={"sub-title "} >අවසාන ක්‍රියාවලිය <span className={"pointer"} data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4" >👈</span></li>
+    <li className={"sub-title "} >අවසාන ක්‍රියාවලිය <span className={"pointer"} data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4" ><i class="icofont-hand-drag1"></i></span></li>
     <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
         <ul className={"list"}>
             <li>ගිනුම ආරම්භ වීමට වෙළද දින 3ක් පමන ගතවේ.</li>
@@ -61,7 +62,7 @@ class App extends Component {
             <li>ඔහු විසින් ඔබගේ ගිනුම ආරම්භ වූ බව හෝ යම් වෙනස්වීමක් අවශ්‍ය නම් ඒ බව ඔබට දැනුම් දෙනු ලැබේ.</li>
         </ul></div>
 
-        <li className={"sub-title "} >අපි පලමු ආයෝජනය තේරෙන විදියට කරමු <span className={"pointer"} data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">👈</span></li>
+        <li className={"sub-title "} >අපි පලමු ආයෝජනය තේරෙන විදියට කරමු <span className={"pointer"} data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5"><i class="icofont-hand-drag1"></i></span></li>
     <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
     <ul className={"list"}>
 <li>ඔන්න ඔබේ නම් J කියල ගන්නම්. දැන් J අලුතින්ම cds ගිනුමක් සාගාගෙන තියෙන්නේ. J තෝරගත්තේ X කියන තැරව්කාර ආයතනය. ඉතින් ඒ X ආයතනයෙන් J ට ලබා දෙනවා Y කියන ආයෝජක උපදේශක මහතාව. දැන් J පලමු ආයෝජනය කරන්න ලෑස්ති වෙන්නේ. J ට කෙලින්ම තමන්ගේ CDS ගිනුමට ස්ල්ලි දාන්න බෑ. ඔහු X කියන ආයතනයෙන් ලබාදුන් ගිනුමට මුලින් මුදල් දමා ඒ බව Y ට දැනුම් දෙන්න ඕන. J මුද්ල් බැරකල රිසිප්ට් පත මුදල CDS ගිනුමට බැරවෙන තෙක් තතා ගැනීම කෝකටත් හොදයි. දැන් J ගේ cds  ගිනුමෙ තියෙන සල්ලි වලින් J තෝරාගත් සමාගමේ කොටස් Y මාර්ගයෙන් හෝ online trading ඔස්සේ මිලදීගන්නවා</li>
