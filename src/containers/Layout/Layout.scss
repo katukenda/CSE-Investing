@@ -1,0 +1,37 @@
+.nav-main{
+ margin-bottom: 50px;
+    background: rgb(36, 34, 34);
+    .navbar-brand-color{
+        color: chartreuse;
+    }
+    .navbar-link-color{
+        color: white !important;
+    }
+    .nav-grop-back{
+        :hover{
+            background: rgb(36, 71, 16) !important;
+        }
+background: black !important;
+border: none !important;
+    }
+    .navbar-toggler{
+        border: 1px solid chartreuse;
+        color: chartreuse !important;
+       
+    
+    }
+    .navbar-toggler-icon{
+        opacity: 1000;
+        color: chartreuse !important;
+    }
+}
+.main-content{
+    min-height: 80vh;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.layout-main{
+    background: black;
+ 
+   
+}

@@ -1,0 +1,55 @@
+@import '../assets/scss/colors.scss';
+
+
+.header{
+    background: $theme-color2;
+}
+
+
+.logo{
+   height: 100px;
+   width: 150px; 
+   border-radius: 50%;
+}
+
+.side-bar{
+    background: BLACK;
+    :active{
+        background: rgb(28, 31, 25);
+    }
+    
+}
+
+.setting-drop{
+    text-align: right !important;
+    align-items: flex-end;
+  }
+
+  .footer{
+    background: black;
+  }
+  .footer-col{
+      background: black;
+      padding: 0;
+  }
+  .footer-img{
+      width: 10px;
+      height: 10px;
+  }
+  .col-1{
+      width: fit-content;;
+    text-align: left;
+    color: white;
+}
+  .col-2{
+    text-align: center;
+    color: black;
+}
+  .col-3{
+      text-align: right;
+      color: white;
+  }
+
+  .link-footer{
+      color: rgb(66, 218, 20);
+  }

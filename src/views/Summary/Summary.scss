@@ -1,0 +1,69 @@
+@import "../../assets//scss/colors.scss";
+.summary-main{
+    background: black;
+}
+.dash-col{
+    
+    padding-top: 20px;
+}
+
+
+.dash-card{
+   
+    display: flex;
+    min-height: 200px;
+    border-radius: 5px;
+    border: 3px solid rgba(224, 207, 194, 0.911) !important;
+    box-shadow: 3px 1px 10px 2px #8f8585 !important;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 24px;
+
+
+}
+.row-1{
+    text-align: center !important;
+    display: inline;
+}
+.prop-img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    padding: 0 !important;
+}
+.sub-topic{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.row-two{
+    padding: 20px;
+    
+}
+.summery-paper{
+    text-align: center;
+   
+}
+.paper-topic1{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.paper-topic2{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.summery-col{
+    padding-bottom: 20px;
+}
+.mail-box{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  
+
+}

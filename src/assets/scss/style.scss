@@ -1,0 +1,150 @@
+@import "fonts";
+@import "~@coreui/coreui/scss/coreui.scss";
+@import "colors";
+
+
+p,
+table,
+button,
+span,
+label,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a
+ {
+  font-family: $common-fonts;
+}
+
+.toast-title,
+.toast-message {
+  font-family: $common-fonts;
+}
+.toast-success {
+  background-color: #51a351 !important;
+}
+.toast-error {
+  background-color: #bd362f !important;
+}
+.toast-warning {
+  background-color: #f89406 !important;
+}
+
+.input-feild {
+  padding: 10px 0px 10px 0px;
+  border: none !important;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(241, 229, 229);
+  font-size: 20px;
+  min-width: 100px;
+}
+
+.com-btn  {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  box-shadow: none !important;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px!important;
+  height: 40px;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: white !important;
+}
+
+.green-btn{
+  color: white !important;
+  background: rgb(11, 221, 11) !important;
+  margin-right: 15px !important;
+
+}
+
+.main-background{
+  align-items: center;
+height: 100%;
+  background: repeating-radial-gradient(
+  circle at 0 0,
+  $theme-color1,
+  $theme-color2 50%
+);
+}
+
+
+
+
+figure.image {
+  display: inline-block;
+  border: 1px solid gray;
+  margin: 0 2px 0 1px;
+  background: #f5f2f0;
+}
+
+figure.align-left {
+  float: left;
+}
+
+figure.align-right {
+  float: right;
+}
+
+figure.image img {
+  margin: 8px 8px 0 8px;
+}
+
+figure.image figcaption {
+  margin: 6px 8px 6px 8px;
+  text-align: center;
+}
+
+
+/*
+ Alignment using classes rather than inline styles
+ check out the "formats" option
+*/
+
+img.align-left {
+  float: left;
+}
+
+img.align-right {
+  float: right;
+}
+
+/* Basic styles for Table of Contents plugin (toc) */
+.mce-toc {
+  border: 1px solid gray;
+}
+
+.mce-toc h2 {
+  margin: 4px;
+}
+
+.mce-toc li {
+  list-style-type: none;
+}
+
+.tg-ctr{
+  color: white;
+}
+
