@@ -1,5 +1,4 @@
 {
-  
   "name": "cseinvesting",
   "version": "0.1.0",
   "private": true,
@@ -30,6 +29,7 @@
     "react": "^16.13.1",
     "react-app-polyfill": "^1.0.6",
     "react-compound-interest": "^1.3.1",
+    "react-datetime": "^3.0.4",
     "react-dom": "^16.13.1",
     "react-icofont": "^1.0.19",
     "react-modal-video": "^1.2.6",

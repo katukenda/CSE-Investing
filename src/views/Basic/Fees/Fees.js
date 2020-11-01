@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Fees.scss';
-import {Row,Col} from 'reactstrap'
+import {Row,Col, Button} from 'reactstrap'
 class App extends Component {
     state = {  }
     render() { 
@@ -36,7 +36,9 @@ class App extends Component {
 
                
                <Row className={"fees-row"}>
-<p className={"fees-subtopic"}>ගනුඳෙනුව සිඳුවන ආකාරය</p>
+<p className={"fees-subtopic"}>ගනුඳෙනුව සිඳුවන ආකාරය    </p>
+
+<a href="https://www.youtube.com/watch?v=W3QtAvkx41M"><Button  className="com-btn green-btn">Play Video</Button></a>
 <p></p>
                </Row>
 

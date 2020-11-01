@@ -14,7 +14,6 @@ import MailForm from '../../components/MailForm/MainForm';
 
 
 
-
 class App extends Component {
     state = {
 
@@ -68,7 +67,7 @@ class App extends Component {
                             <p >
                                 <a className={"links-social"} href="https://twitter.com/CEinvesting"><i class="icofont-twitter"></i></a>
                             </p>
-                            
+                          
                         </Row>
                         <Row className={"row-1"}>
                             <Col lg="12" >

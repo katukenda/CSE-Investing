@@ -1,6 +1,16 @@
 .nav-main{
+    opacity: 1000;
+    z-index: 1000;
  margin-bottom: 50px;
-    background: rgb(36, 34, 34);
+    background: rgb(36, 34, 34) !important;
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+        background: black !important;
+    }
     .navbar-brand-color{
         color: chartreuse;
     }
