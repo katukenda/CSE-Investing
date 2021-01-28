@@ -60,6 +60,15 @@
 .summery-col{
     padding-bottom: 20px;
 }
+
+.yt-window{
+    width: 10%;
+    height: 10%;
+}
+.ytp-cued-thumbnail-overlay-image{
+    width: 10% !important;
+    height: 10% !important;
+}
 .mail-box{
     padding-left: 20px;
     padding-right: 20px;
@@ -67,6 +76,18 @@
   
 
 }
+.c-share {
+    box-shadow: inset 1px 1px 10px black; /* [1] */
+    padding: 1rem;
+  
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: center; /* [2] */
+  
+    height: 100vh;
+  }
+
 .toggle-p{
     padding-left: 10px;
     font-size: 20px;

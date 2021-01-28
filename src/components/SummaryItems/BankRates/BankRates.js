@@ -52,7 +52,7 @@ const ModalExample = (props) => {
                             <a href="https://www.sdb.lk/en/rates" > SDB Bank  </a>
                         </Col>
                         <Col lg="4">
-                            <a href="https://www.nationstrust.com/deposit-rates" > NTB Nank  </a>
+                            <a href="https://www.nationstrust.com/deposit-rates" > NTB Bank  </a>
                         </Col>
 
                     </Row>

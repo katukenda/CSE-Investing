@@ -19,7 +19,7 @@ const TheFooter = () => {
       <div className="mfs-auto">
         <span className="mr-1">Design_By</span>
        
-        <a className={"link-footer"} href="https://www.facebook.com/ByDontBePoor1" target="_blank" rel="noopener noreferrer">Don't_Be_Poor</a>
+        <a className={"link-footer"} href="#" target="_blank" rel="noopener noreferrer">CSE investing</a>
       </div>
     </CFooter>
   )

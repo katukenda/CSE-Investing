@@ -1,7 +1,7 @@
 import React, { Component, useState } from 'react';
 
 import './Summary.scss';
-import { Container, Col, Row, Button, Collapse, } from 'reactstrap';
+import { Container, Col, Row, Button, Collapse, Media } from 'reactstrap';
 import { Paper } from '@material-ui/core';
 import Slider from '../../components/Slider/Slider';
 import bgimg from '../../assets/img/bg-img.png';
@@ -11,8 +11,9 @@ import DunnigKrug from '../../components/SummaryItems/DunningKrug/DunningKrug';
 import Laffer from '../../components/SummaryItems/Laffer/Laffer';
 import BankRates from '../../components/SummaryItems/BankRates/BankRates';
 import MailForm from '../../components/MailForm/MainForm';
-
-
+import YouTube from 'react-youtube';
+import ReactPlayer from 'react-player';
+import ReactYouTube from '../../components/youtubeSubscribe';
 
 class App extends Component {
     state = {
@@ -21,7 +22,9 @@ class App extends Component {
         isOpen2: Boolean(false),
         isOpen3: Boolean(false),
         isOpen4: Boolean(false),
-        isOpen0: false
+        isOpen0: false,
+        isOpen01: false,
+        isOpen02: false
     }
     toggleShow = () => {
         this.setState({
@@ -31,6 +34,26 @@ class App extends Component {
     toggleHide = () => {
         this.setState({
             isOpen0: false
+        })
+    }
+    toggleShow01 = () => {
+        this.setState({
+            isOpen01: true
+        })
+    }
+    toggleHide01 = () => {
+        this.setState({
+            isOpen01: false
+        })
+    }
+    toggleShow02 = () => {
+        this.setState({
+            isOpen02: true
+        })
+    }
+    toggleHide02 = () => {
+        this.setState({
+            isOpen02: false
         })
     }
 
@@ -54,20 +77,25 @@ class App extends Component {
 
                 <section className={"section-one"}>
                     <Container >
-                    <Row   className={"link-col"}>
+                        <Row className={"link-col"}>
                             <p >
                                 <a className={"links-social"} href="https://www.facebook.com/cseinvesting" ><i class="icofont-facebook"></i></a>
                             </p>
                             <p >
                                 <a className={"links-social"} href="https:cseinvesting.info@gmail.com"><i class="icofont-email"></i></a>
                             </p>
-                            <p >
-                                <a className={"links-social"} href="https://www.youtube.com/channel/UCUEr-iv9d5n-swGAm6Tfd3g?view_as=subscriber"><i class="icofont-brand-youtube"></i></a>
-                            </p>
+                           
                             <p >
                                 <a className={"links-social"} href="https://twitter.com/CEinvesting"><i class="icofont-twitter"></i></a>
                             </p>
-                          
+                            <ReactYouTube
+                            className={"c-share"}
+                                channelid={"UCUEr-iv9d5n-swGAm6Tfd3g"}
+                                theme={"default"}
+                                layout={"full"}
+                                count={"default"}
+                            />
+
                         </Row>
                         <Row className={"row-1"}>
                             <Col lg="12" >
@@ -143,6 +171,121 @@ class App extends Component {
                             </Row>
                         </Collapse>
 
+                        <Row className={"row-two"}>
+                            <h3 className={"sub-topic"}>කොටස් වෙළෙඳපොළට අලුතින්ම එකතුවෙන්න බලාපොරොත්තු වෙන නවකයින් වෙනුවෙන්ම සකස් කල විශේෂ වීඩියෝ මාලාව.
+    සියල්ල ප්‍රායෝගිකව සත්‍ය ගිනුම් හා දත්ත යොදාගෙන පැහැදිලි කරයි
+</h3>
+                        </Row>
+                        <Row className={"row-two"}>
+                            <Col lg="4" className={"summery-col  "}>
+                                <ReactPlayer style={{ width: "20" }} url='https://youtube.com/playlist?list=PLFz4R5_5kikrVVaMMIh5VCDc_6JfqBT3K' />
+                            </Col>
+                        </Row>
+
+                        {
+                            this.state.isOpen01 !== true &&
+                            <Row className={"row-two"} >
+
+                                <p className={"toggle-p"} onClick={this.toggleShow01} style={{ marginBottom: '1rem' }}>View playlist <i class="icofont-hand-drawn-down"></i> </p>
+                            </Row>
+                        }
+
+
+                        <Collapse isOpen={this.state.isOpen01}>
+                            <Row className={"row-two"} >
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="T35O8j3BTbI" />
+                                </Col>
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="W3QtAvkx41M" />
+                                </Col>
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="3osgoLy82EE" />
+                                </Col>
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="mpbTLzdfOJQ" />
+                                </Col>
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="ZGEUueTv2O0" />
+                                </Col>
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="TXh76wBAI8Q" />
+                                </Col>
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="7s2wF2GDWko" />
+                                </Col> <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="WbldUNTtEZo" />
+                                </Col>
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="5ALEbVWJlRw" />
+                                </Col>
+
+
+
+                            </Row>
+                            <Row className={"row-two"} >
+                                <p className={"toggle-p"} onClick={this.toggleHide01} style={{ marginBottom: '1rem' }}>Close playlist <i class="icofont-hand-drawn-up"></i> </p>
+
+                            </Row>
+                        </Collapse>
+                        <Row className={"row-two"}>
+                            <h3 className={"sub-topic"}>Atrad එකෙන් නිවැරදිව ගනුදෙනු කරන්න ඉගෙනගන්න එන්න. අපි මේ වීඩියෝ මාලාවෙන් Atrad platform එකේ සියලු දේ කතා කරනවා. වීඩියෝ 10කින් මේ හැම දෙයක්ම දැනගන්න පුලුවන් .
+</h3>
+                        </Row>
+                        <Row className={"row-two"}>
+                            <Col lg="4" className={"summery-col  "}>
+                                <ReactPlayer style={{ width: "20" }} url='https://youtube.com/playlist?list=PLFz4R5_5kikrOFgQk4-ed7pg_FKCLbtFR' />
+                            </Col>
+                        </Row>
+
+                        {
+                            this.state.isOpen02 !== true &&
+                            <Row className={"row-two"} >
+
+                                <p className={"toggle-p"} onClick={this.toggleShow02} style={{ marginBottom: '1rem' }}>View playlist <i class="icofont-hand-drawn-down"></i> </p>
+                            </Row>
+                        }
+
+
+                        <Collapse isOpen={this.state.isOpen01}>
+                            <Row className={"row-two"} >
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="hEUQuRZOTK4" />
+                                </Col>
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="rf3nkw5U7OM" />
+                                </Col>
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="GT2FqKBPRNg" />
+                                </Col>
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="q3mG9ZjCFgo" />
+                                </Col>
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="2rjFbrkMV2E" />
+                                </Col>
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="9R_tHUOylmU" />
+                                </Col>
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="o4ppwg7Fc3E" />
+                                </Col> <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="RTgJEPFNEL0" />
+                                </Col>
+                                <Col lg="4" className={"summery-col"}>
+                                    <YouTube videoId="RTgJEPFNEL0" />
+                                </Col>
+
+
+
+                            </Row>
+                            <Row className={"row-two"} >
+                                <p className={"toggle-p"} onClick={this.toggleHide02} style={{ marginBottom: '1rem' }}>Close playlist <i class="icofont-hand-drawn-up"></i> </p>
+
+                            </Row>
+                        </Collapse>
+
+
 
                         <Row className={"mail-box"}>
                             <Col lg="12">
@@ -150,7 +293,7 @@ class App extends Component {
 
                                 <MailForm /></Col>
                         </Row>
-                        
+
                     </div>
                 </section>
             </div>
