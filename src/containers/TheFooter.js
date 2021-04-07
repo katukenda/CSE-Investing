@@ -13,13 +13,13 @@ const TheFooter = () => {
       
       <div>
         <a href="http://cseinvesting.com" target="_blank" className={"link-footer"} rel="noopener noreferrer">CSEinvesting.com </a>
-        <span className="ml-1">&copy; 2020 All Right Reserved</span>
+        <span className="ml-1">&copy; 2021 All Right Reserved</span>
       </div>
      
       <div className="mfs-auto">
         <span className="mr-1">Design_By</span>
        
-        <a className={"link-footer"} href="#" target="_blank" rel="noopener noreferrer">CSE investing</a>
+        <a className={"link-footer"} href="#" target="_blank" rel="noopener noreferrer">J'Devop</a>
       </div>
     </CFooter>
   )
