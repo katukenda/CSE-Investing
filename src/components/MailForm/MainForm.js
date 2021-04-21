@@ -19,7 +19,7 @@
           from_name: email,
           to_name: 'CSE investing',
           subject: subject,
-          message_html: message,
+          message: message,
          }
     
          emailjs.send(
