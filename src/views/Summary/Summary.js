@@ -11,9 +11,13 @@ import DunnigKrug from '../../components/SummaryItems/DunningKrug/DunningKrug';
 import Laffer from '../../components/SummaryItems/Laffer/Laffer';
 import BankRates from '../../components/SummaryItems/BankRates/BankRates';
 import MailForm from '../../components/MailForm/MainForm';
-import YouTube from 'react-youtube';
+import YouTube from '@u-wave/react-youtube';
 import ReactPlayer from 'react-player';
 import ReactYouTube from '../../components/youtubeSubscribe';
+import OpenModel from './OpenModel';
+import Cookies from 'js-cookie';
+import Disclimer from '../../assets/img/disclimer.png'
+
 
 class App extends Component {
     state = {
@@ -24,7 +28,8 @@ class App extends Component {
         isOpen4: Boolean(false),
         isOpen0: false,
         isOpen01: false,
-        isOpen02: false
+        isOpen02: false,
+        setShow : true
     }
     toggleShow = () => {
         this.setState({
@@ -57,7 +62,9 @@ class App extends Component {
         })
     }
 
+    checkDiscli= () =>{
 
+    }
     render() {
 
         return (
@@ -95,7 +102,7 @@ class App extends Component {
                                 layout={"full"}
                                 count={"default"}
                             />
-
+ 
                         </Row>
                         <Row className={"row-1"}>
                            <Col lg="12">
@@ -170,120 +177,71 @@ class App extends Component {
                         </Collapse>
 
                         <Row className={"row-two"}>
-                            <h3 className={"sub-topic"}>කොටස් වෙළෙඳපොළට අලුතින්ම එකතුවෙන්න බලාපොරොත්තු වෙන නවකයින් වෙනුවෙන්ම සකස් කල විශේෂ වීඩියෝ මාලාව.
-    සියල්ල ප්‍රායෝගිකව සත්‍ය ගිනුම් හා දත්ත යොදාගෙන පැහැදිලි කරයි
+                            <h3 className={"sub-topic"}>
 </h3>
                         </Row>
-                        <Row className={"row-two"}>
-                            <Col lg="4" className={"summery-col  "}>
-                                <ReactPlayer style={{ width: "20" }} url='https://youtube.com/playlist?list=PLFz4R5_5kikrVVaMMIh5VCDc_6JfqBT3K' />
-                            </Col>
-                        </Row>
 
-                        {
-                            this.state.isOpen01 !== true &&
-                            <Row className={"row-two"} >
+<Row>
+    <Col lg="6">
+    <p className = {"video-Title"}> කොටස් වෙළෙඳපොළට අලුතින්ම එකතුවෙන්න බලාපොරොත්තු වෙන නවකයින් වෙනුවෙන්ම සකස් කල විශේෂ වීඩියෝ මාලාව.
+    සියල්ල ප්‍රායෝගිකව සත්‍ය ගිනුම් හා දත්ත යොදාගෙන පැහැදිලි කරයි</p>
+    <a href ={"https://www.youtube.com/playlist?list=PLFz4R5_5kikrVVaMMIh5VCDc_6JfqBT3K"} target = "blank ">
+                   <Button className="com-btn green-btn">
+                       GO to playlist
+                   </Button>
+               </a>
+                     <YouTube
+                            
+                            video="GRYnADD8cn0"
+                           //autoplay
+                          />
+                          
+    </Col>
+    <Col lg="6">
+    <p className = {"video-Title"}> Binance මුලික විස්තර කිරීම් සියල්ල</p>
+    <a href ={"https://www.youtube.com/playlist?list=PLFz4R5_5kikrzqoODL7rhDm3Jh2UjLxMB"} target = "blank ">
+                   <Button className="com-btn green-btn">
+                       GO to playlist
+                   </Button>
+               </a>
+                     <YouTube
+                            
+                            video="wxbeuwQZHXI"
+                           //autoplay
+                          />
+                          
+    </Col>
+    <Col lg="6">
+    <p className = {"video-Title"}> Atrad එකෙන් නිවැරදිව ගනුදෙනු කරන්න ඉගෙනගන්න එන්න. අපි මේ වීඩියෝ මාලාවෙන් Atrad platform එකේ සියලු දේ කතා කරනවා. වීඩියෝ 10කින් මේ හැම දෙයක්ම දැනගන්න පුලුවන් .</p>
+    <a href ={"https://www.youtube.com/playlist?list=PLFz4R5_5kikrOFgQk4-ed7pg_FKCLbtFR"} target = "blank ">
+                   <Button className="com-btn green-btn">
+                       GO to playlist
+                   </Button>
+               </a>
+                     <YouTube
+                            
+                            video="WXCI4hYZyBY"
+                           //autoplay
+                          />
+                          
+    </Col>
+    <Col lg="6">
+    <p className = {"video-Title"}> Technical support for investors</p>
+    <a href ={"https://www.youtube.com/playlist?list=PLFz4R5_5kikqSAKAGtHSRt3nF_a287hh2"} target = "blank ">
+                   <Button className="com-btn green-btn">
+                       GO to playlist
+                   </Button>
+               </a>
+                     <YouTube
+                            
+                            video="4DUSsaCGknk"
+                           //autoplay
+                          />
+                          
+    </Col>
+</Row>
 
-                                <p className={"toggle-p"} onClick={this.toggleShow01} style={{ marginBottom: '1rem' }}>View playlist <i class="icofont-hand-drawn-down"></i> </p>
-                            </Row>
-                        }
-
-
-                        <Collapse isOpen={this.state.isOpen01}>
-                            <Row className={"row-two"} >
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="T35O8j3BTbI" />
-                                </Col>
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="W3QtAvkx41M" />
-                                </Col>
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="3osgoLy82EE" />
-                                </Col>
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="mpbTLzdfOJQ" />
-                                </Col>
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="ZGEUueTv2O0" />
-                                </Col>
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="TXh76wBAI8Q" />
-                                </Col>
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="7s2wF2GDWko" />
-                                </Col> <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="WbldUNTtEZo" />
-                                </Col>
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="5ALEbVWJlRw" />
-                                </Col>
-
-
-
-                            </Row>
-                            <Row className={"row-two"} >
-                                <p className={"toggle-p"} onClick={this.toggleHide01} style={{ marginBottom: '1rem' }}>Close playlist <i class="icofont-hand-drawn-up"></i> </p>
-
-                            </Row>
-                        </Collapse>
-                        <Row className={"row-two"}>
-                            <h3 className={"sub-topic"}>Atrad එකෙන් නිවැරදිව ගනුදෙනු කරන්න ඉගෙනගන්න එන්න. අපි මේ වීඩියෝ මාලාවෙන් Atrad platform එකේ සියලු දේ කතා කරනවා. වීඩියෝ 10කින් මේ හැම දෙයක්ම දැනගන්න පුලුවන් .
-</h3>
-                        </Row>
-                        <Row className={"row-two"}>
-                            <Col lg="4" className={"summery-col  "}>
-                                <ReactPlayer style={{ width: "20" }} url='https://youtube.com/playlist?list=PLFz4R5_5kikrOFgQk4-ed7pg_FKCLbtFR' />
-                            </Col>
-                        </Row>
-
-                        {
-                            this.state.isOpen02 !== true &&
-                            <Row className={"row-two"} >
-
-                                <p className={"toggle-p"} onClick={this.toggleShow02} style={{ marginBottom: '1rem' }}>View playlist <i class="icofont-hand-drawn-down"></i> </p>
-                            </Row>
-                        }
-
-
-                        <Collapse isOpen={this.state.isOpen01}>
-                            <Row className={"row-two"} >
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="hEUQuRZOTK4" />
-                                </Col>
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="rf3nkw5U7OM" />
-                                </Col>
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="GT2FqKBPRNg" />
-                                </Col>
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="q3mG9ZjCFgo" />
-                                </Col>
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="2rjFbrkMV2E" />
-                                </Col>
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="9R_tHUOylmU" />
-                                </Col>
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="o4ppwg7Fc3E" />
-                                </Col> <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="RTgJEPFNEL0" />
-                                </Col>
-                                <Col lg="4" className={"summery-col"}>
-                                    <YouTube videoId="RTgJEPFNEL0" />
-                                </Col>
-
-
-
-                            </Row>
-                            <Row className={"row-two"} >
-                                <p className={"toggle-p"} onClick={this.toggleHide02} style={{ marginBottom: '1rem' }}>Close playlist <i class="icofont-hand-drawn-up"></i> </p>
-
-                            </Row>
-                        </Collapse>
-
-
+                        
 
                         <Row className={"mail-box"}>
                             <Col lg="12">
@@ -292,6 +250,20 @@ class App extends Component {
                                 <MailForm /></Col>
                         </Row>
 
+                        <Row style={{color :"black"}}>
+
+                           
+                        </Row>
+                        {
+                               Cookies.get("worning") == undefined?
+
+                              
+                                 <div>
+                                       <img className={"warning-img"} src={Disclimer} onClick ={this.checkDiscli}/>
+                             <OpenModel/>
+                                 </div>
+                               :null
+                            }
                     </div>
                 </section>
             </div>

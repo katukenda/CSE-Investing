@@ -79,7 +79,7 @@ class App extends Component {
                            
                         </Row>
 <Row>
-    <Col lg = "12">
+    <Col lg = "6">
         <p className ={"video-Title"}>2. හවුල් ගිනුමක් සාදාගන්නා ආකාරය</p>
     <YouTube
                             video="3osgoLy82EE"
@@ -87,9 +87,8 @@ class App extends Component {
                             //autoplay
                           />
     </Col>
-    </Row>
-    <Row>
-    <Col lg = "12">
+    
+    <Col lg = "6">
         <p className ={"video-Title"}>3. CDS ගිනුම හදද්දී එන්න පුලුවන් ගැටලු හා එම ගැටලු විසදාගැන්මට </p>
     <YouTube
                              video="T35O8j3BTbI"
@@ -97,9 +96,8 @@ class App extends Component {
                             //autoplay
                           />
     </Col>
-    </Row>
-    <Row>
-    <Col lg = "12">
+
+    <Col lg = "6">
         <p className ={"video-Title"}>4. අපිට ගැලපෙන හොදම කොටසක් තෝරාගැනීමට ක්‍රමවේදයක් </p>
     <YouTube
                             
@@ -107,9 +105,8 @@ class App extends Component {
                             //autoplay
                           />
     </Col>
-    </Row>
-    <Row>
-    <Col lg = "12">
+   
+    <Col lg = "6">
         <p className ={"video-Title"}>5. බ්‍රෝකර් ගාස්තු හා බදු කීයක් අයවෙනවද කියල ගනන් හදලම කියල දෙනවා</p>
     <YouTube
                             
@@ -117,9 +114,8 @@ class App extends Component {
                             //autoplay
                           />
     </Col>
-    </Row>
-    <Row>
-    <Col lg = "12">
+    
+    <Col lg = "6">
         <p className ={"video-Title"}>6. ඇවරේජ් කියන්නේ මොකක්ද සහ ගනනයන් කරන විදිය</p>
     <YouTube
                             
@@ -127,10 +123,9 @@ class App extends Component {
                            // autoplay
                           />
     </Col>
-    </Row>
-    <Row>
+   
         
-    <Col lg = "12">
+    <Col lg = "6">
     <p className ={"video-Title"}>7. අපේ ගනුදෙනු සාර්ථක ලෙස excell වල සටහන් කරගෙන එවා විශ්ලේෂණය කරමු</p>
     <YouTube
                             
@@ -138,9 +133,8 @@ class App extends Component {
                             //autoplay
                           />
     </Col>
-    </Row>
-    <Row>
-    <Col lg = "12">
+   
+    <Col lg = "6">
          <p className ={"video-Title"}>8. ඔබේ ලාබාංශ ලැබෙන බැංකු ගිනුම මාරුකරගන්න ආකාරය</p>
     <YouTube
                             
@@ -148,9 +142,8 @@ class App extends Component {
                             //autoplay
                           />
     </Col>
-    </Row>
-    <Row>
-    <Col lg = "12">
+   
+    <Col lg = "6">
         <p className ={"video-Title"}>9. ලාබාංශ ඉතිහාසය සහ එහි බාවිතය</p>
     <YouTube
                             
@@ -158,9 +151,8 @@ class App extends Component {
                            // autoplay
                           />
     </Col>
-    </Row>
-    <Row>
-    <Col lg = "12">
+   
+    <Col lg = "6">
         <p className ={"video-Title"}>10. සාරාංශය සහ කොටස් වෙළෙඳපොළට දාපු සල්ලි ආපසු ගන්න විදිය</p>
     <YouTube
                             
