@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Card, Row } from 'reactstrap';
+import YouTube from '@u-wave/react-youtube';
 import '../Education.scss';
 
 class App extends Component {
@@ -25,8 +26,12 @@ class App extends Component {
                         </p></a>
                     </Col>
 
-
                 </Row>
+                <YouTube
+                            
+                            video="mpbTLzdfOJQ"
+                            autoplay
+                          />
             </div>
         );
     }

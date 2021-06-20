@@ -7,7 +7,10 @@
     padding-top: 20px;
 }
 
-
+.logo-img {
+    width: auto;
+    height: 30vh;
+}
 .dash-card{
    
     display: flex;
@@ -28,8 +31,8 @@
     display: inline;
 }
 .prop-img{
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: 20vh;
     align-items: center;
     padding: 0 !important;
 }

@@ -4,7 +4,7 @@ import './Summary.scss';
 import { Container, Col, Row, Button, Collapse, Media } from 'reactstrap';
 import { Paper } from '@material-ui/core';
 import Slider from '../../components/Slider/Slider';
-import bgimg from '../../assets/img/bg-img.png';
+import bgimg from '../../assets/img/logo2.jpg';
 import i from 'react-icofont';
 import CompoundInterest from '../../components/SummaryItems/CompountInterest/CompoundInterest';
 import DunnigKrug from '../../components/SummaryItems/DunningKrug/DunningKrug';
@@ -98,16 +98,14 @@ class App extends Component {
 
                         </Row>
                         <Row className={"row-1"}>
-                            <Col lg="12" >
-                                <img className={"prop-img img-fluid"} src={bgimg} />
-                            </Col>
+                           <Col lg="12">
+                                <img className={"logo-img"} src ={ bgimg}/>
+                           </Col>
                             <Col lg="12">
-                                <div className={"sub-topic"}><p >Colombe Stock Exchange Investing</p></div>
-                                <div className={"sub-topic"}> <p  >කොළඹ කොටස් වෙළෙඳපොළ ආයෝජනය </p></div>
+                                
+                                <div className={"sub-topic"}> <p  >#motivation  #information   #knowledge</p></div>
                             </Col>
-                            <Col lg="12">
-
-                            </Col>
+                            
 
                         </Row>
                     </Container>

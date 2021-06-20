@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Link, Redirect} from 'react-router-dom';
 import i from 'react-icofont';
 import './Open.scss';
+import YouTube from '@u-wave/react-youtube';
 import { Container, UncontrolledCollapse, Col, Row, Button, Card, CardTitle, CardBody, CardFooter, CardHeader } from 'reactstrap';
 import Unde from '../../../components/UnderDevelop/Underdevolop';
 class App extends Component {  
@@ -13,8 +14,12 @@ class App extends Component {
                 <section>
                     <Container>
                         <Row >
-                            
                             <p className={"title"} >අපි බලමු අලුතින් ගිනුමක්  ආරම්භ කරගන්නා ආකාරය. </p>
+                            <YouTube
+                            
+  video="GRYnADD8cn0"
+  autoplay
+/>
 
 
 <ol class="accordion" id="accordionExample">
@@ -73,6 +78,106 @@ class App extends Component {
 </ol>
                            
                         </Row>
+<Row>
+    <Col lg = "12">
+        <p className ={"video-Title"}>2. හවුල් ගිනුමක් සාදාගන්නා ආකාරය</p>
+    <YouTube
+                            video="3osgoLy82EE"
+                           
+                            //autoplay
+                          />
+    </Col>
+    </Row>
+    <Row>
+    <Col lg = "12">
+        <p className ={"video-Title"}>3. CDS ගිනුම හදද්දී එන්න පුලුවන් ගැටලු හා එම ගැටලු විසදාගැන්මට </p>
+    <YouTube
+                             video="T35O8j3BTbI"
+                           
+                            //autoplay
+                          />
+    </Col>
+    </Row>
+    <Row>
+    <Col lg = "12">
+        <p className ={"video-Title"}>4. අපිට ගැලපෙන හොදම කොටසක් තෝරාගැනීමට ක්‍රමවේදයක් </p>
+    <YouTube
+                            
+                            video="mpbTLzdfOJQ"
+                            //autoplay
+                          />
+    </Col>
+    </Row>
+    <Row>
+    <Col lg = "12">
+        <p className ={"video-Title"}>5. බ්‍රෝකර් ගාස්තු හා බදු කීයක් අයවෙනවද කියල ගනන් හදලම කියල දෙනවා</p>
+    <YouTube
+                            
+                            video="W3QtAvkx41M"
+                            //autoplay
+                          />
+    </Col>
+    </Row>
+    <Row>
+    <Col lg = "12">
+        <p className ={"video-Title"}>6. ඇවරේජ් කියන්නේ මොකක්ද සහ ගනනයන් කරන විදිය</p>
+    <YouTube
+                            
+                            video="ZGEUueTv2O0"
+                           // autoplay
+                          />
+    </Col>
+    </Row>
+    <Row>
+        
+    <Col lg = "12">
+    <p className ={"video-Title"}>7. අපේ ගනුදෙනු සාර්ථක ලෙස excell වල සටහන් කරගෙන එවා විශ්ලේෂණය කරමු</p>
+    <YouTube
+                            
+                            video="TXh76wBAI8Q"
+                            //autoplay
+                          />
+    </Col>
+    </Row>
+    <Row>
+    <Col lg = "12">
+         <p className ={"video-Title"}>8. ඔබේ ලාබාංශ ලැබෙන බැංකු ගිනුම මාරුකරගන්න ආකාරය</p>
+    <YouTube
+                            
+                            video="7s2wF2GDWko"
+                            //autoplay
+                          />
+    </Col>
+    </Row>
+    <Row>
+    <Col lg = "12">
+        <p className ={"video-Title"}>9. ලාබාංශ ඉතිහාසය සහ එහි බාවිතය</p>
+    <YouTube
+                            
+                            video="WbldUNTtEZo"
+                           // autoplay
+                          />
+    </Col>
+    </Row>
+    <Row>
+    <Col lg = "12">
+        <p className ={"video-Title"}>10. සාරාංශය සහ කොටස් වෙළෙඳපොළට දාපු සල්ලි ආපසු ගන්න විදිය</p>
+    <YouTube
+                            
+                            video="5ALEbVWJlRw"
+                            //autoplay
+                          />
+    </Col>
+    </Row>
+
+                       
+                          
+                          
+                          
+                         
+                        
+                         
+                         
 
                         
                     </Container>

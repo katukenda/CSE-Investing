@@ -17,14 +17,14 @@ export default [
 
   {
     _tag: 'CSidebarNavDropdown',
-    name: 'මූලික විස්තර | Basic Info',
-    route: '/basic',
+    name: 'කොටස් වෙළෙඳපොළ | Stock',
+    route: '/stock',
     icon: 'cil-puzzle',
     _children: [
       {
         _tag: 'CSidebarNavItem',
         name: 'ගිණුමක් අරඹමු |Account ',
-        to: '/basic/open',
+        to: '/stock/open',
       },
       {
         _tag: 'CSidebarNavItem',
@@ -38,9 +38,19 @@ export default [
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'නීති | Rules',
-        to: '/pending',
+        name: 'වෙබ් අඩවි | Websites',
+        to: '/education/web',
       },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'යූ_ටියුබ් | YouTube ',
+        to: '/education/youtube',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'පොත් | Books',
+        to: '/pending',
+      }
     ],
   },
 
