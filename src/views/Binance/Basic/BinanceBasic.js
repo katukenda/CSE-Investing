@@ -16,7 +16,7 @@ class App extends Component {
              <Row >
                 <Col lg = "12">
                 <h1 className={"main-topic"}>
-                    Welcome to leraning zone Of Binance Trading
+                    Welcome to learning zone Of Binance Trading
                      <br/>
                      බයිනෑන්ස් ගැන ඉගෙනගන්න ආපු හැමෝම සාදරයෙන් පිළිගන්නවා</h1>
                 </Col>

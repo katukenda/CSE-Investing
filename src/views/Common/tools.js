@@ -42,10 +42,15 @@ class App extends Component {
            </Row>
            <Row>
                <Col lg="6">
-               <p className = {"video-Title"}>Day trader strategic managment google sheet</p>
-               <a href ={"https://docs.google.com/spreadsheets/d/1brDhGBCro6_2zaRgQbJKN6j1XBXbOEuaqNJBiY5rmKY/edit?usp=sharing"} target = "blank ">
+               <p className = {"video-Title"}>day trader work sheet and long term portfolio spreadsheet</p>
+               <a href ={"https://docs.google.com/spreadsheets/d/1I0kCJAZClQ0WL0vX4T1zdZ4tDF_vMTsnLkndmIKIVss/edit?usp=sharing"} target = "blank ">
                    <Button className="com-btn green-btn">
-                       Get Demo Google Sheet
+                       Get Day Trader Demo SpreadSheet 
+                   </Button>
+               </a>
+               <a href ={"https://docs.google.com/spreadsheets/d/1C2W2iZq5gIbuu7fntWx0WFT0RA8H1pVMSpaYSV_TaOc/edit?usp=sharing"} target = "blank ">
+                   <Button className="com-btn green-btn">
+                   Get Day Long Term Demo SpreadSheet 
                    </Button>
                </a>
                </Col>
@@ -53,7 +58,7 @@ class App extends Component {
                <p className = {"video-Title"}></p>
                <YouTube
                             
-                            video="WXCI4hYdfdZyBY"
+                            video="jzXzj2uT2Wo"
                            //autoplay
                           />
                </Col>
