@@ -23,8 +23,8 @@ const ModalExample = (props) => {
                 <div className={"dunning-main"}>
                     <Row>
                         <Col lg="12">
-                            <p>ලාෆර් වක්රය යනු බදු අනුපාත සහ රජයන් විසින් එකතු කරනු ලබන බදු ආදායමේ ප්‍රමාණය අතර සම්බන්ධතාවය පෙන්වීම සඳහා සැපයුම් පාර්ශවීය ආර්ථික විද්‍යා ආතර් ලාෆර් විසින් සකස් කරන ලද න්‍යායකි. </p> </Col>
-                    <p>සමහර විට බදු අනුපාත කප්පාදු කිරීමෙන් සමස්ත බදු ආදායම ඉහළ යා හැකි බවට ලාෆර්ගේ තර්කය විදහා දැක්වීමට වක්‍රය භාවිතා වේ</p>
+                            <p> The Lafarge curve is a theory developed by Arthur Lafarge, a supply chain economist, to show the relationship between tax rates and the amount of tax revenue collected by governments.</p> </Col>
+                    <p>The curve is sometimes used to illustrate Lafarge's argument that austerity could increase total tax revenue by cutting tax rates.</p>
                     </Row>
                     <Row><Col lg="12">
                         <div> <img src={img1} className={"img-1"} />
@@ -32,7 +32,7 @@ const ModalExample = (props) => {
                     </Col> </Row>
                     <Row>
                         <Col lg="12">
-                            <p>බදු අනුපාත වැඩි කිරීමෙන් අපට වැඩි බදු ආදායමක් උපයා ගත හැකි යැයි ඔබ සිතන්නේ නම්, එය කළ නොහැකි වනු ඇත. මෙම බද්ද මග හැරීම සඳහා මිනිසුන් සිය මෙහෙයුම් වෙනස් කරයි.</p>
+                            <p>If you think we can earn more tax revenue by raising tax rates, it will not be possible. People are changing their operations to avoid this tax.</p>
                              </Col>
                     </Row>
                 </div>

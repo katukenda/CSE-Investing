@@ -22,8 +22,8 @@ const ModalExample = (props) => {
 
                 <div className={"dunning-main"}>
                     <Row>
-                        <Col lg="12"><p>පුද්ගලයෙකු යමක් පටන්ගන්නාවිට ඔහුගේ මනෝභාවය ක්‍රියාත්මක වන ආකාරය මෙහිදී විස්තර කරයි.</p>
-                            <p>මෙම ප්‍රස්ථාරය ඇද ඇත්තේ දැනුමත් සමග ආත්ම විස්වාසය විචලනය වන ආකාරයයි</p>
+                        <Col lg="12"><p>It describes how a person's mood works when he starts something.</p>
+                            <p>This chart draws on how self-confidence varies with knowledge</p>
                         </Col>
                     </Row>
                     <Row><Col lg="12">
@@ -32,8 +32,8 @@ const ModalExample = (props) => {
                     </Col> </Row>
                     <Row>
                         <Col lg="12">
-                            <p>ආරම්භයේදී තමා පිලිබදව අධි තක්සේරුවකින් යුතුව විස්වාසය උපරිම මට්ටමේ පවතී. නමුත් දැනුම ටිකින් ටික වැඩිවන විට තමා සිතාසිටි දේවල් වැරදි බවත් තමා නොදන්නා බොහෝ දේවල් තිබෙන බව වටහා ගනී.</p>
-                            <p>ඉන් පසු දැනුමින් මිහුකුරා යන විට නැවත ඔහුගේ විස්වාසය වැඩිවේ. නමුත් ඔහු කිසිවිටෙක පෙර මෙන් අධි විශ්වාසයක් තනා නොගනී. මන්ද ‍යත් ඔහුට මග හැරුනු තවත් බොහෝ දේ පැවතිය හැකි බව ඔහු දනී (මෙය බල නොපාන අයද සිටිය හැක)</p>
+                            <p>Confidence is at its peak with an overestimation of oneself in the beginning. But as the knowledge grows, he realizes that what he is thinking is wrong and that there are many things that he does not know.</p>
+                            <p>Then, as the knowledge grows, so does his confidence. But he never builds as much confidence as he did before. Because he knows that there may be many more things he missed (there may be those who do not influence this)</p>
                         </Col>
                     </Row>
                 </div>

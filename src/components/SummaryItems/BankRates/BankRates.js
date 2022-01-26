@@ -23,7 +23,7 @@ const ModalExample = (props) => {
                 <div className={"dunning-main"}>
                     <Row>
                         <Col lg="12">
-                            <p>ශ්‍රී ලංකාවේ ප්‍රධාන බැංකුවල  තැන්පතු අනුපාත</p>
+                            <p>Deposit rates of major banks in Sri Lanka</p>
                         </Col>
                     </Row>
                     <Row>

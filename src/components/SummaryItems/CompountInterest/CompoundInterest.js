@@ -19,7 +19,7 @@ const ModalExample = (props) => {
       <Modal isOpen={props.handleOpen1} >
         <ModalHeader ></ModalHeader>
        <div className={"calculater-main"}>
-       <CompoundInterest title="Compound Interest සංයුක්ත පොළිය" />
+       <CompoundInterest title="Compound Interest " />
        </div>
         <ModalFooter>
           

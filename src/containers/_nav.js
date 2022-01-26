@@ -6,7 +6,7 @@ export default [
 
   {
     _tag: 'CSidebarNavItem',
-    name: 'සාරාංශය | Summary ',
+    name: 'Summary ',
     to: '/summary',
     icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
     badge: {
@@ -17,38 +17,38 @@ export default [
 
   {
     _tag: 'CSidebarNavDropdown',
-    name: 'කොටස් වෙළෙඳපොළ | Stock',
+    name: 'Stock',
     route: '/stock',
     icon: 'cil-puzzle',
     _children: [
       {
         _tag: 'CSidebarNavItem',
-        name: 'ගිණුමක් අරඹමු |Account ',
+        name: 'Account ',
         to: '/stock/open',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: ' තැරැව්කරුවන් | Brockers',
+        name: 'Brockers',
         to: '/basic/brokers',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'ගාස්තු | Fees ',
+        name: 'Fees ',
         to: '/basic/fees',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'වෙබ් අඩවි | Websites',
+        name: 'Websites',
         to: '/education/web',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'යූ_ටියුබ් | YouTube ',
+        name: 'YouTube ',
         to: '/education/youtube',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'පොත් | Books',
+        name: 'Books',
         to: '/pending',
       }
     ],
@@ -56,24 +56,24 @@ export default [
 
   {
     _tag: 'CSidebarNavDropdown',
-    name: 'අධ්‍යාපනික | Educational',
+    name: 'Educational',
     route: '/education',
     icon: 'cil-puzzle',
     _children: [
       
       {
         _tag: 'CSidebarNavItem',
-        name: 'වෙබ් අඩවි | Websites',
+        name: 'Websites',
         to: '/education/web',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'යූ_ටියුබ් | YouTube ',
+        name: 'YouTube ',
         to: '/education/youtube',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'පොත් | Books',
+        name: 'Books',
         to: '/pending',
       },
       // {
@@ -86,22 +86,22 @@ export default [
 
   {
     _tag: 'CSidebarNavTitle',
-    _children: ['වෙනත්  | Other'],
+    _children: ['Other'],
   },
   {
     _tag: 'CSidebarNavDropdown',
-    name: 'අදහස් | Comments',
+    name: 'Comments',
     route: '/pending',
     icon: 'cil-star',
     _children: [
       {
         _tag: 'CSidebarNavItem',
-        name: 'අදහස් | Comments',
+        name: 'Comments',
         to: '/pending',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'ප්‍රශ්න | Questions',
+        name: 'Questions',
         to: '/pending',
       },
       {

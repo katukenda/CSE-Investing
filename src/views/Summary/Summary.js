@@ -126,23 +126,23 @@ class App extends Component {
                             <Col lg="4" className={"summery-col"}>
                                 <Paper className={"summery-paper"}>
                                     <p className={"paper-topic1"}>Compound Interest</p>
-                                    <p className={"paper-topic2"}>සංයුක්ත පොළිය</p>
-                                    <Button className="com-btn green-btn" onClick={() => this.setState({ isOpen1: true })}>Cal/කැල්කියුලේටරය</Button>
+                                   
+                                    <Button className="com-btn green-btn" onClick={() => this.setState({ isOpen1: true })}>calculater</Button>
                                 </Paper>
                             </Col>
                             <Col lg="4" className={"summery-col"}>
                                 <Paper className={"summery-paper"}>
                                     <p className={"paper-topic1"}> Dunning–Kruger effect</p>
-                                    <p className={"paper-topic2"}>ඩනිං-කෘගර් ආචරණය</p>
-                                    <Button className="com-btn green-btn" onClick={() => this.setState({ isOpen2: true })}>Learn/ඉගෙන ගන්න</Button>
+                                   
+                                    <Button className="com-btn green-btn" onClick={() => this.setState({ isOpen2: true })}>Learn</Button>
                                 </Paper>
 
                             </Col>
                             <Col lg="4" className={"summery-col"}>
                                 <Paper className={"summery-paper"}>
                                     <p className={"paper-topic1"}> Laffer curve</p>
-                                    <p className={"paper-topic2"}>ලාෆර් වක්රය</p>
-                                    <Button className="com-btn green-btn" onClick={() => this.setState({ isOpen3: true })}>Learn/ඉගෙන ගන්න</Button>
+                                    
+                                    <Button className="com-btn green-btn" onClick={() => this.setState({ isOpen3: true })}>Learn</Button>
                                 </Paper>
 
                             </Col>
@@ -163,8 +163,8 @@ class App extends Component {
                                 <Col lg="4" className={"summery-col"}>
                                     <Paper className={"summery-paper"}>
                                         <p className={"paper-topic1"}> Bank Rates</p>
-                                        <p className={"paper-topic2"}>බැංකු තැන්පතු අනුපාත</p>
-                                        <Button className="com-btn green-btn" onClick={() => this.setState({ isOpen4: true })}>Check /පරීක්ෂා කිරීම</Button>
+                                        
+                                        <Button className="com-btn green-btn" onClick={() => this.setState({ isOpen4: true })}>Check</Button>
                                     </Paper>
                                 </Col>
 
@@ -183,8 +183,8 @@ class App extends Component {
 
 <Row>
     <Col lg="6">
-    <p className = {"video-Title"}> කොටස් වෙළෙඳපොළට අලුතින්ම එකතුවෙන්න බලාපොරොත්තු වෙන නවකයින් වෙනුවෙන්ම සකස් කල විශේෂ වීඩියෝ මාලාව.
-    සියල්ල ප්‍රායෝගිකව සත්‍ය ගිනුම් හා දත්ත යොදාගෙන පැහැදිලි කරයි</p>
+    <p className = {"video-Title"}> Special video series for beginners who are new to the stock market.
+     Explains everything practically using real accounts and data</p>
     <a href ={"https://www.youtube.com/playlist?list=PLFz4R5_5kikrVVaMMIh5VCDc_6JfqBT3K"} target = "blank ">
                    <Button className="com-btn green-btn">
                        GO to playlist
@@ -198,7 +198,7 @@ class App extends Component {
                           
     </Col>
     <Col lg="6">
-    <p className = {"video-Title"}> Binance මුලික විස්තර කිරීම් සියල්ල</p>
+    <p className = {"video-Title"}> Binance | All of the basic descriptions</p>
     <a href ={"https://www.youtube.com/playlist?list=PLFz4R5_5kikrzqoODL7rhDm3Jh2UjLxMB"} target = "blank ">
                    <Button className="com-btn green-btn">
                        GO to playlist
@@ -212,7 +212,7 @@ class App extends Component {
                           
     </Col>
     <Col lg="6">
-    <p className = {"video-Title"}> Atrad එකෙන් නිවැරදිව ගනුදෙනු කරන්න ඉගෙනගන්න එන්න. අපි මේ වීඩියෝ මාලාවෙන් Atrad platform එකේ සියලු දේ කතා කරනවා. වීඩියෝ 10කින් මේ හැම දෙයක්ම දැනගන්න පුලුවන් .</p>
+    <p className = {"video-Title"}> Atrad Complete tutorial </p>
     <a href ={"https://www.youtube.com/playlist?list=PLFz4R5_5kikrOFgQk4-ed7pg_FKCLbtFR"} target = "blank ">
                    <Button className="com-btn green-btn">
                        GO to playlist
@@ -245,7 +245,7 @@ class App extends Component {
 
                         <Row className={"mail-box"}>
                             <Col lg="12">
-                                <p className={"sub-topic"}>Comment Your Idea ඔබේ අදහස් දක්වන්න </p>
+                                <p className={"sub-topic"}>Comment Your Idea</p>
 
                                 <MailForm /></Col>
                         </Row>

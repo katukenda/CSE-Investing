@@ -17,15 +17,15 @@ class App extends Component {
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle navbar-link-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                කොටස් වෙළෙඳපොළ | Stock
+                                Stock Market
         </a>
                                 <div className="dropdown-menu nav-grop-back" aria-labelledby="navbarDropdown ">
-                                    <a className="dropdown-item navbar-link-color" href="/stock/open">ගිණුමක් අරඹමු |Account </a>
-                                    <a className="dropdown-item navbar-link-color" href="/stock/brokers">තැරැව්කරුවන් | Brockers </a>
-                                    <a className="dropdown-item navbar-link-color" href="/stock/fees">ගාස්තු | Fees </a>
-                                    <a className="dropdown-item navbar-link-color" href="/stock/web">වෙබ් අඩවි | Websites </a>
-                                    <a className="dropdown-item navbar-link-color" href="/stock/youtube">යූ_ටියුබ් | YouTube</a>
-                                    <a className="dropdown-item navbar-link-color" href="/dev">පොත් | Books</a>
+                                    <a className="dropdown-item navbar-link-color" href="/stock/open">Open an Account </a>
+                                    <a className="dropdown-item navbar-link-color" href="/stock/brokers"> Brockers </a>
+                                    <a className="dropdown-item navbar-link-color" href="/stock/fees">Fees </a>
+                                    <a className="dropdown-item navbar-link-color" href="/stock/web">Websites </a>
+                                    <a className="dropdown-item navbar-link-color" href="/stock/youtube">ouTube</a>
+                                    <a className="dropdown-item navbar-link-color" href="/dev">Books</a>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
@@ -48,11 +48,11 @@ class App extends Component {
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle navbar-link-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                වෙනත්  | Other
+                              Other
                                 </a>
                                 <div className="dropdown-menu nav-grop-back" aria-labelledby="navbarDropdown ">
-                                    <a className="dropdown-item navbar-link-color" href="/dev">අදහස් | Comments </a>
-                                    <a className="dropdown-item navbar-link-color" href="/dev">ප්‍රශ්න | Questions</a>
+                                    <a className="dropdown-item navbar-link-color" href="/dev">Comments </a>
+                                    <a className="dropdown-item navbar-link-color" href="/dev">Questions</a>
                                   
                                 </div>
                             </li>

@@ -14,7 +14,7 @@ class App extends Component {
                 <section>
                     <Container>
                         <Row >
-                            <p className={"title"} >අපි බලමු අලුතින් ගිනුමක්  ආරම්භ කරගන්නා ආකාරය. </p>
+                            <p className={"title"} >Let's see how to open a new account. </p>
                             <YouTube
                             
   video="GRYnADD8cn0"
@@ -23,54 +23,54 @@ class App extends Component {
 
 
 <ol class="accordion" id="accordionExample">
-    <li className={"sub-title"}>ඔබ දැනගත යුතු කරුනු <sapn className={"pointer"}  data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1"><i class="icofont-hand-drag1"></i></sapn></li>
+    <li className={"sub-title"}>Things you need to know <sapn className={"pointer"}  data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1"><i class="icofont-hand-drag1"></i></sapn></li>
     <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionExample">
         <ul className={"list"}>
-            <li > ඔබට නීත්‍යානුකූලව සෑදිය හැක්කේ එක් CDS ගිනුමක් පමනි.</li>
-            <li  >ඔබට තැරව්කාර ආයතන කීපයක තැරව්කාර ගිනුම් සාදාගත හැකිය. </li>
-            <li  >නමුත් එක ආයතනනයකින් එක් ගිනුමක් බැගින් පමනි</li>
+            <li > You can only legally create one CDS account.</li>
+            <li  >You can create brokerage accounts for several brokerage firms. </li>
+            <li  >But only one account per institution</li>
         </ul>
     </div>
 
 
 
 
-    <li className={"sub-title "}  >පැරණි ආකාරයට <span className={"pointer"} data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2"><i class="icofont-hand-drag1"></i></span></li>
+    <li className={"sub-title "}  >In the old way <span className={"pointer"} data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2"><i class="icofont-hand-drag1"></i></span></li>
     <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
 
         <ul className={"list"}>
-            <li  >මේ සදහා ඔබට තැරව්කාර ආයතනයක් වෙත යාමට සිදුවන අතර, ඔවුන් ලබාදෙන ඉල්ලුම්පත් නිවැරදිව පුරවා ඔවුන් වෙත ලබා දිය යුතුයි.</li>
-            <li >ඔබ ඉල්ලුම්පත් සමග ඔබගේ ජාතික හැදුනුම්පතේ හෝ විදේශ ගමන් පත්‍රයේ පිටපතක් , බැංකු පොතේ පිටපතක් සහ පදිංචිය සනාතකල හැකි යම් බිල්පතක් වැනි යමක් ඉතිරිපත් කල යුතුය.</li>
-            <li  >බොහේ තැරව්කාර ආයතන අන්තර්ජාලය හරහා ගනුදෙනු කලහැකි මෘදුකාංග ලබා දෙන අතර , එය ඉල්ලුම් කිරීම සදහා ආයෝජකයා පවත්වාගෙන යායුතු අවම කොටස් හිමිකම් ප්‍රමාණය එක් එක් ආයතනයට ආවේනික වේ. </li>
+            <li  >For this you have to go to a brokerage firm and fill out the application form they provide and give it to them.</li>
+            <li >You will need to enclose with the application a copy of your National Identity Card or Passport, a copy of the bank book and any bill that can prove proof of residency.</li>
+            <li  >Most brokerage firms offer software that can be traded online, with each firm having a minimum shareholding that the investor must maintain in order to apply.</li>
 
         </ul>
     </div>
 
-    <li className={"sub-title "} >නව ආකාරයට <span className={"pointer"} data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3"><i class="icofont-hand-drag1"></i></span></li>
+    <li className={"sub-title "} >In a new way<span className={"pointer"} data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3"><i class="icofont-hand-drag1"></i></span></li>
     <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
         <ul className={"list"}>
-            <li>මේ සදහා ඔබට email ලිපිනයක්, දුරකතන අංකයක් තිබිය යුතුය</li>
-            <li>පළමුව ඔබ <a href="https://www.cds.lk/">www.cds.lk</a> වෙත ගොස් නව යෙදුම බාගත කල යුතුය.</li>
-            <li>ඉන් පසු ඔබේ විස්තර නිවැරදිව ලබා දී නව MY CSE ගිනුමක් සාදාගන්න.</li>
-            <li>ඔබේ NIC/Passport සහ බැංකු පොත ලග තබාගත යතුය.</li>
-            <li>ඔබේ සියලු විස්තර නිවැරදිව පුරවා යොමුකල පසු cse මගින් ඔබේ ඉල්ලුම් පත්‍රය ලැබිනු බවට තහවුරු කර email පනිවිඩයක් එවනු ලැබේ</li>
-            <li>නිවැරදිව online cds ගිනුමක් සාදන ආකාරය අවශ්‍ය අයට  <Link to= "/opencds">👉👉</Link> video </li>
+            <li>For this you need to have an email address and a phone number</li>
+            <li>First you <a href="https://www.cds.lk/">www.cds.lk</a> Go to and download the new app.</li>
+            <li>Then enter your details correctly and create a new MY CSE account.</li>
+            <li>Keep your NIC / Passport and bank book with you.</li>
+            <li>After filling in all your details correctly, cse will send you an email confirming that your application has been received.</li>
+            <li>For those who want to know how to create an online cds account correctly <Link to= "/opencds">👉👉</Link> video </li>
 
 
         </ul>
     </div>
-    <li className={"sub-title "} >අවසාන ක්‍රියාවලිය <span className={"pointer"} data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4" ><i class="icofont-hand-drag1"></i></span></li>
+    <li className={"sub-title "} >The final process <span className={"pointer"} data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4" ><i class="icofont-hand-drag1"></i></span></li>
     <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
         <ul className={"list"}>
-            <li>ගිනුම ආරම්භ වීමට වෙළද දින 3ක් පමන ගතවේ.</li>
-            <li>ඔබ තෝරාගන්නා තැරව්කාර ආයතනයෙන් , ඔබට උපදේශක මහතෙකු අනුයුක්ත කරනු ලැබේ</li>
-            <li>ඔහු විසින් ඔබගේ ගිනුම ආරම්භ වූ බව හෝ යම් වෙනස්වීමක් අවශ්‍ය නම් ඒ බව ඔබට දැනුම් දෙනු ලැබේ.</li>
+            <li>It takes about 3 trading days to open the account.</li>
+            <li>From the brokerage firm you choose, you will be assigned a consultant</li>
+            <li>He will notify you if your account has been opened or if any changes are required.</li>
         </ul></div>
 
-        <li className={"sub-title "} >අපි පලමු ආයෝජනය තේරෙන විදියට කරමු <span className={"pointer"} data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5"><i class="icofont-hand-drag1"></i></span></li>
+        <li className={"sub-title "} >Let’s make the first investment understandable <span className={"pointer"} data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5"><i class="icofont-hand-drag1"></i></span></li>
     <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
     <ul className={"list"}>
-<li>ඔන්න ඔබේ නම් J කියල ගන්නම්. දැන් J අලුතින්ම cds ගිනුමක් සාගාගෙන තියෙන්නේ. J තෝරගත්තේ X කියන තැරව්කාර ආයතනය. ඉතින් ඒ X ආයතනයෙන් J ට ලබා දෙනවා Y කියන ආයෝජක උපදේශක මහතාව. දැන් J පලමු ආයෝජනය කරන්න ලෑස්ති වෙන්නේ. J ට කෙලින්ම තමන්ගේ CDS ගිනුමට ස්ල්ලි දාන්න බෑ. ඔහු X කියන ආයතනයෙන් ලබාදුන් ගිනුමට මුලින් මුදල් දමා ඒ බව Y ට දැනුම් දෙන්න ඕන. J මුද්ල් බැරකල රිසිප්ට් පත මුදල CDS ගිනුමට බැරවෙන තෙක් තතා ගැනීම කෝකටත් හොදයි. දැන් J ගේ cds  ගිනුමෙ තියෙන සල්ලි වලින් J තෝරාගත් සමාගමේ කොටස් Y මාර්ගයෙන් හෝ online trading ඔස්සේ මිලදීගන්නවා</li>
+<li>Let's take your name as J. Now J has created a new cds account. J chose a brokerage firm called X. So X gives J an investor advisor called Y. Now J is getting ready to make his first investment. J cannot transfer money directly to his CDS account. He must first deposit money in the account provided by the company called X and inform Y about it. It is also a good idea to keep the J Money Credit Receipt until the money is credited to the CDS Account. Now with the money in J's cds account, J can buy shares of the selected company through Y or online trading</li>
 
 </ul>
         
@@ -80,7 +80,7 @@ class App extends Component {
                         </Row>
 <Row>
     <Col lg = "6">
-        <p className ={"video-Title"}>2. හවුල් ගිනුමක් සාදාගන්නා ආකාරය</p>
+        <p className ={"video-Title"}>2. How to create a shared/Joint account</p>
     <YouTube
                             video="3osgoLy82EE"
                            
@@ -89,7 +89,7 @@ class App extends Component {
     </Col>
     
     <Col lg = "6">
-        <p className ={"video-Title"}>3. CDS ගිනුම හදද්දී එන්න පුලුවන් ගැටලු හා එම ගැටලු විසදාගැන්මට </p>
+        <p className ={"video-Title"}>3. Problems that may arise when creating a CDS account and how to resolve those issues </p>
     <YouTube
                              video="T35O8j3BTbI"
                            
@@ -98,7 +98,7 @@ class App extends Component {
     </Col>
 
     <Col lg = "6">
-        <p className ={"video-Title"}>4. අපිට ගැලපෙන හොදම කොටසක් තෝරාගැනීමට ක්‍රමවේදයක් </p>
+        <p className ={"video-Title"}>4. A methodology to choose the best part that suits us </p>
     <YouTube
                             
                             video="mpbTLzdfOJQ"
@@ -107,7 +107,7 @@ class App extends Component {
     </Col>
    
     <Col lg = "6">
-        <p className ={"video-Title"}>5. බ්‍රෝකර් ගාස්තු හා බදු කීයක් අයවෙනවද කියල ගනන් හදලම කියල දෙනවා</p>
+        <p className ={"video-Title"}>5. The broker calculates the fees and taxes</p>
     <YouTube
                             
                             video="W3QtAvkx41M"
@@ -116,7 +116,7 @@ class App extends Component {
     </Col>
     
     <Col lg = "6">
-        <p className ={"video-Title"}>6. ඇවරේජ් කියන්නේ මොකක්ද සහ ගනනයන් කරන විදිය</p>
+        <p className ={"video-Title"}>6. What is Average and how it is calculated</p>
     <YouTube
                             
                             video="ZGEUueTv2O0"
@@ -126,7 +126,7 @@ class App extends Component {
    
         
     <Col lg = "6">
-    <p className ={"video-Title"}>7. අපේ ගනුදෙනු සාර්ථක ලෙස excell වල සටහන් කරගෙන එවා විශ්ලේෂණය කරමු</p>
+    <p className ={"video-Title"}>7. We successfully record our transactions in excell and analyze them</p>
     <YouTube
                             
                             video="TXh76wBAI8Q"
@@ -135,7 +135,7 @@ class App extends Component {
     </Col>
    
     <Col lg = "6">
-         <p className ={"video-Title"}>8. ඔබේ ලාබාංශ ලැබෙන බැංකු ගිනුම මාරුකරගන්න ආකාරය</p>
+         <p className ={"video-Title"}>8. How to transfer your dividend receiving bank account</p>
     <YouTube
                             
                             video="7s2wF2GDWko"
@@ -144,7 +144,7 @@ class App extends Component {
     </Col>
    
     <Col lg = "6">
-        <p className ={"video-Title"}>9. ලාබාංශ ඉතිහාසය සහ එහි බාවිතය</p>
+        <p className ={"video-Title"}>9. History of dividends and its use</p>
     <YouTube
                             
                             video="WbldUNTtEZo"
@@ -153,7 +153,7 @@ class App extends Component {
     </Col>
    
     <Col lg = "6">
-        <p className ={"video-Title"}>10. සාරාංශය සහ කොටස් වෙළෙඳපොළට දාපු සල්ලි ආපසු ගන්න විදිය</p>
+        <p className ={"video-Title"}>10. Summary and how to withdraw money invested in the stock market</p>
     <YouTube
                             
                             video="5ALEbVWJlRw"
