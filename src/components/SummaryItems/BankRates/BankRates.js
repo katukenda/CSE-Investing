@@ -28,31 +28,46 @@ const ModalExample = (props) => {
                     </Row>
                     <Row>
                         <Col lg="4">
-                            <a href="https://boc.lk/index.php?route=rates/rates" > BOC  </a>
+                            <a href="https://boc.lk/index.php?route=rates/rates" target='blank'> BOC  </a>
                         </Col>
                         <Col lg="4">
-                            <a href="https://www.nsb.lk/rates-tarriffs/rupee-deposit-rates/" > NSB  </a>
+                            <a href="https://www.nsb.lk/rates-tarriffs/rupee-deposit-rates/" target='blank'> NSB  </a>
                         </Col>
                         <Col lg="4">
-                            <a href="https://www.peoplesbank.lk/lkr-deposits" > Peoples Bank  </a>
+                            <a href="https://www.peoplesbank.lk/lkr-deposits" target='blank'> Peoples Bank  </a>
                         </Col>
                         <Col lg="4">
-                            <a href="https://www.combank.net/newweb/en/rates-tariffs" > Commercial Bank  </a>
+                            <a href="https://www.combank.net/newweb/en/rates-tariffs" target='blank'> Commercial Bank  </a>
                         </Col>
                         <Col lg="4">
-                            <a href="https://www.sampath.lk/en/interest-rates-local" > Sampath Bank  </a>
+                            <a href="https://www.sampath.lk/en/interest-rates-local" target='blank'> Sampath Bank  </a>
                         </Col>
                         <Col lg="4">
-                            <a href="https://www.hnb.net/interest-rates" > HNB Bank  </a>
+                            <a href="https://www.hnb.net/interest-rates" target='blank'> HNB Bank  </a>
                         </Col>
                         <Col lg="4">
-                            <a href="https://www.dfcc.lk/interest-rates/" > DFCC Bank  </a>
+                            <a href="https://www.dfcc.lk/interest-rates/" target='blank'> DFCC Bank  </a>
                         </Col>
                         <Col lg="4">
-                            <a href="https://www.sdb.lk/en/rates" > SDB Bank  </a>
+                            <a href="https://www.sdb.lk/en/rates" target='blank'> SDB Bank  </a>
                         </Col>
                         <Col lg="4">
-                            <a href="https://www.nationstrust.com/deposit-rates" > NTB Bank  </a>
+                            <a href="https://www.nationstrust.com/deposit-rates" target='blank'> NTB Bank  </a>
+                        </Col>
+                        <Col lg="4">
+                            <a href="https://www.hnbfinance.lk/si/fixed-deposits/" target='blank'> HNB Finance  </a>
+                        </Col>
+                        <Col lg="4">
+                            <a href="https://www.lolcfinance.com/rates-and-returns/interest-rates/" target='blank'> LOLC Finance  </a>
+                        </Col>
+                        <Col lg="4">
+                            <a href="https://www.plc.lk/products/fixed-deposits-savings/fixed-deposits/" target='blank'> PLC  </a>
+                        </Col>
+                        <Col lg="4">
+                            <a href="https://www.vallibelfinance.com/product/fixed-deposits" target='blank'> Vallibel Finance  </a>
+                        </Col>
+                        <Col lg="4">
+                            <a href="https://www.lbfinance.com/fixed-deposits-yasa-isuru/" target='blank'> LB Finance  </a>
                         </Col>
 
                     </Row>

@@ -13,7 +13,7 @@ const TheFooter = () => {
       
       <div>
         <a href="http://cseinvesting.com" target="_blank" className={"link-footer"} rel="noopener noreferrer">CSEinvesting.com </a>
-        <span className="ml-1">&copy; 2021 All Right Reserved</span>
+        <span className="ml-1">&copy; 2022 All Right Reserved</span>
       </div>
      
       <div className="mfs-auto">
